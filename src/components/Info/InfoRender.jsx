@@ -5,7 +5,7 @@ export default function RenderedInfo({data,formatTime,currentTime,icon}){
   return(
     <div className={styles.centeredInfo}>
       <picture className={styles.imgContainer}>
-        <img src={`./public/icons/${icon}@2x.png`} alt="icon" />
+        <img type='png' src={`./public/icons/${icon}@2x.png`} alt="icon" />
       </picture>
       <article>
         <h1>
