@@ -1,0 +1,12 @@
+.title{
+  max-width: 750px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.animatedTitle{
+  font-size: 50px;
+  -webkit-text-stroke: 0.2vw black;
+  color: transparent;
+}

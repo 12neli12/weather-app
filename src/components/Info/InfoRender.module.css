@@ -1,0 +1,20 @@
+.centeredInfo{
+  justify-content: center;
+  width: 300px;
+  padding-top: 50px;
+}
+
+.imgContainer>img{
+  z-index: 3;
+  position: absolute;
+  top: 65%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  max-width: 150px;
+  width: 100%;
+}
+
+h1{
+  font-size: 43px;
+}
+
